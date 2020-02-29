@@ -1,4 +1,8 @@
-# nodejs-scaffold
-Project scaffolding using NodeJS + Express + Sequelize + PostgreSQL + TypeScript
+# install dependencies
+npm i
 
-In production: https://nodejs-scaffold.herokuapp.com/
+# run
+npm run dev
+
+# build
+npm run prod
