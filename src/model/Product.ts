@@ -53,8 +53,6 @@ export default class Product {
 
     const filteredProducts = products.filter(p => regex.test(p.title));
 
-    if(!filteredProducts.length) return Promise.reject({status: 404})
-
     return Promise.resolve(filteredProducts);
   }
 

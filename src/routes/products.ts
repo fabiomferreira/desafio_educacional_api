@@ -10,7 +10,8 @@ router.get('/', (req, res) => {
     .fetchAll(req.query)
     .then(((products) => {
       res.send(products);
-    }));
+    }))
+    .catch((error) => res.status(error.status).send(error));
 });
 
 router.get('/:id', (req, res) => {
