@@ -8,6 +8,9 @@
     "dev": "ts-node-dev --respawn --transpileOnly ./src/index.ts",
     "prod": "ts-node src/index.ts"
   },
+    "engines": {
+    "node": "10.x"
+  },
   "keywords": [
     "nodejs",
     "express",
